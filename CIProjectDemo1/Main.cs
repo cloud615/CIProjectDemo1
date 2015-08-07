@@ -17,5 +17,9 @@ namespace CIProjectDemo1
         {
             return string.Format("现在输出的内容是：{0}", str);
         }
+        public string PrintString2(string str)
+        {
+            return string.Format("修改项目内容，现在输出的内容是：{0}", str);
+        }
     }
 }

@@ -34,7 +34,14 @@ namespace CIProjectDemo1.UnitTests
            Assert.AreEqual("现在输出的内容是：单元测试中", result);
        }
 
+       [Test]
+       public void StringTest2()
+       {
+           var result = main.PrintString2("单元测试中");
 
+           Assert.IsInstanceOf<string>(result);
+           Assert.AreEqual("修改项目内容，现在输出的内容是：单元测试中", result);
+       }
 
     }
 }
