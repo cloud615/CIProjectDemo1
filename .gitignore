@@ -4,6 +4,7 @@ ehthumbs.db
 
 # Folder config file
 Desktop.ini
+packages/
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
@@ -42,4 +43,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-nunit.framework.dll/
+
