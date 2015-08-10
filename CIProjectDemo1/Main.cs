@@ -21,5 +21,10 @@ namespace CIProjectDemo1
         {
             return string.Format("修改项目内容，现在输出的内容是：{0}", str);
         }
+
+        public string PrintException(string str)
+        {
+            throw new Exception("异常举例");
+        }
     }
 }
